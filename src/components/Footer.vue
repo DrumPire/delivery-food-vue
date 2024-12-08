@@ -74,4 +74,22 @@ export default {
   .nav-items:not(:last-child) {
     margin-right: 15px;
   }
+  @media (max-width: 709px) {
+    /* .nav {
+      margin-bottom: 15px;
+    } */
+    .footer-logo {
+      margin-bottom: 10px;
+      margin-right: 10px;
+    }
+  }
+  @media (max-width: 527px) {
+    .nav {
+      margin-bottom: 15px;
+    }
+    .footer-logo {
+      margin-bottom: 10px;
+      margin-right: 10px;
+    }
+  }
 </style>
